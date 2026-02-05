@@ -45,6 +45,1011 @@ Contributors
 
 Steering Committee
 
+# Governance Overview
+
+This document defines how the Bituncoin Gold (BTNG) ecosystem is governed across its four organizational pillars:
+
+- **Ekuye DIGITAL GATEWAY TRUST LTD** — Legal & Fiduciary Governance  
+- **INTERNATIONAL EQUITY TRUST CO** — International & Institutional Governance  
+- **Bituncoin Gold BTNG** — Technical & Protocol Governance  
+- **Ekuye Digital Gateway Trust** — Community & Documentation Governance  
+
+The governance model is designed for clarity, transparency, and long‑term stewardship.
+
+---
+
+## 1. Governance Layers
+
+### **A. Legal & Fiduciary Governance**  
+**Ekuye DIGITAL GATEWAY TRUST LTD**
+- Legal authority  
+- IP and trademark ownership  
+- Regulatory compliance  
+- Approval of major protocol changes  
+- Long‑term fiduciary stewardship  
+
+### **B. International Governance**  
+**INTERNATIONAL EQUITY TRUST CO**
+- Cross‑border compliance  
+- Institutional onboarding  
+- International agreements  
+- Multi‑jurisdictional oversight  
+
+### **C. Technical Governance**  
+**Bituncoin Gold BTNG**
+- Protocol development  
+- Security and audits  
+- Release management  
+- Technical Steering Committee (TSC)  
+- Engineering standards and code quality  
+
+### **D. Community Governance**  
+**Ekuye Digital Gateway Trust**
+- Documentation  
+- Contributor onboarding  
+- Public proposals  
+- Community guidelines  
+- Issue triage and support  
+
+---
+
+## 2. Decision Flow
+
+1. Technical proposals originate in **BTNG**  
+2. Community review occurs in **Ekuye Digital Gateway Trust**  
+3. International implications reviewed by **INTERNATIONAL EQUITY TRUST CO**  
+4. Final approval by **Ekuye DIGITAL GATEWAY TRUST LTD**  
+
+This ensures every decision is reviewed through technical, community, international, and fiduciary lenses.
+
+---
+
+## 3. Security Authority
+
+- BTNG Security Team handles protocol‑level vulnerabilities  
+- Ekuye DIGITAL GATEWAY TRUST LTD manages legal disclosure  
+- Coordinated response across all four organizations  
+
+---
+
+## 4. Release Authority
+
+- BTNG manages technical releases  
+- Ekuye DIGITAL GATEWAY TRUST LTD approves major version changes  
+- INTERNATIONAL EQUITY TRUST CO validates cross‑border compliance  
+- Community governance ensures transparency  
+
+---
+
+## 5. Governance Principles
+
+- Transparency  
+- Security  
+- Accountability  
+- Inclusiveness  
+- Long‑term stewardship  
+
+---
+
+## 6. Related Documents
+
+- `/governance/CONTRIBUTING.md`  
+- `/governance/STEERING_COMMITTEE.md`  
+- `/governance/RELEASE_POLICY.md`  
+- `/governance/SECURITY_DISCLOSURE.md`  
+- `/governance/CODE_OF_CONDUCT.md`  
+- `/governance/CROSS_ORG_CHARTER.md`  
+
+/governance/CONTRIBUTING.md
+
+# Contributing to Bituncoin Gold (BTNG)
+
+Thank you for your interest in contributing to the Bituncoin Gold ecosystem.  
+This project follows a structured, transparent contribution process designed to ensure security, clarity, and long‑term maintainability.
+
+---
+
+## 1. Contribution Workflow
+
+Follow this workflow for all contributions:
+
+1. **Fork** the repository  
+2. **Create a feature branch**  
+3. **Make changes** following project standards  
+4. **Commit using GPG‑signed commits**  
+5. **Open a Pull Request (PR)**  
+6. **Participate in code review**  
+7. **Merge after approval**  
+
+All contributions must pass automated checks and reviewer approval.
+
+---
+
+## 2. Types of Contributions
+
+You may contribute in several ways:
+
+- Code contributions  
+- Documentation improvements  
+- Bug reports  
+- Feature proposals  
+- Governance proposals  
+- Security reports (via private disclosure)  
+
+---
+
+## 3. Requirements
+
+### **GPG‑Signed Commits**
+All commits must be signed using a verified GPG key.  
+Unsigned commits will not be merged.
+
+### **Coding Standards**
+Follow the language‑specific guidelines in each repository:
+
+- Go: formatting, linting, and module structure  
+- JavaScript/TypeScript: ESLint, Prettier, React Native conventions  
+- YAML/JSON: schema consistency and validation  
+
+### **Pull Request Standards**
+Each PR must include:
+
+- A clear description  
+- Linked issue (if applicable)  
+- Test coverage for new logic  
+- Documentation updates when needed  
+
+---
+
+## 4. Governance Alignment
+
+All contributions fall under the governance model defined in:
+
+
+Technical decisions follow the Technical Steering Committee (TSC).  
+Community decisions follow the Community Governance process.
+
+---
+
+## 5. Reporting Issues
+
+Use GitHub Issues for:
+
+- Bugs  
+- Feature requests  
+- Documentation improvements  
+
+Use **security@bituncoin.com** for vulnerabilities.
+
+---
+
+## 6. Code of Conduct
+
+All contributors must follow:
+
+
+Respectful, constructive collaboration is required.
+
+---
+
+## 7. Getting Help
+
+If you need guidance:
+
+- Open a discussion  
+- Join community channels  
+- Contact maintainers via GitHub  
+
+We welcome contributors of all backgrounds and skill levels.
+
+/governance/STEERING_COMMITTEE.md
+
+# Technical Steering Committee (TSC)
+
+The Technical Steering Committee (TSC) provides technical leadership, architectural oversight, and long‑term protocol stewardship for the Bituncoin Gold (BTNG) ecosystem.
+
+The TSC ensures that BTNG evolves securely, responsibly, and in alignment with the ecosystem’s fiduciary and community governance structures.
+
+---
+
+## 1. Purpose
+
+The TSC exists to:
+
+- Guide the technical direction of the BTNG protocol  
+- Maintain architectural integrity across all repositories  
+- Approve major technical proposals and protocol upgrades  
+- Oversee release cycles and long‑term roadmap planning  
+- Ensure security, reliability, and engineering excellence  
+- Coordinate cross‑repository and cross‑organization technical work  
+
+The TSC is the highest technical authority within the BTNG ecosystem.
+
+---
+
+## 2. Responsibilities
+
+### **A. Protocol Governance**
+- Approve consensus changes  
+- Approve ledger modifications  
+- Approve cryptographic upgrades  
+- Approve cross‑chain and interoperability standards  
+
+### **B. Security**
+- Oversee the BTNG Security Team  
+- Review vulnerability reports  
+- Approve emergency patches  
+- Coordinate responsible disclosure  
+
+### **C. Releases**
+- Approve major and minor releases  
+- Define release schedules  
+- Ensure release testing and validation  
+- Coordinate with maintainers across repositories  
+
+### **D. Architecture**
+- Maintain the BTNG technical architecture  
+- Ensure consistency across SDKs, CLIs, nodes, and mobile clients  
+- Approve new repositories and major refactors  
+
+### **E. Community & Transparency**
+- Publish meeting notes  
+- Maintain public technical roadmaps  
+- Engage with contributors and node operators  
+
+---
+
+## 3. Membership
+
+TSC members are appointed by **Ekuye DIGITAL GATEWAY TRUST LTD** based on:
+
+- Demonstrated technical expertise  
+- Long‑term contribution history  
+- Security awareness and responsible engineering practices  
+- Commitment to the BTNG mission and governance principles  
+
+### **Membership Expectations**
+- Active participation in reviews  
+- Attendance at TSC meetings  
+- Stewardship of at least one major subsystem  
+- Adherence to fiduciary and community governance  
+
+---
+
+## 4. Meetings
+
+### **Cadence**
+- Monthly public meeting  
+- Quarterly strategic review  
+- Emergency meetings as needed (security, protocol issues)
+
+### **Format**
+- Agenda published in advance  
+- Notes published after each meeting  
+- Decisions recorded in the governance log  
+
+---
+
+## 5. Decision‑Making
+
+### **Consensus‑Driven**
+The TSC aims for consensus whenever possible.
+
+### **Voting**
+If consensus cannot be reached:
+- Simple majority vote  
+- Chair holds tie‑breaking authority  
+
+### **Escalation**
+If a decision has fiduciary, legal, or cross‑border implications:
+- Escalation to Ekuye DIGITAL GATEWAY TRUST LTD  
+- Review by INTERNATIONAL EQUITY TRUST CO (if applicable)  
+
+---
+
+## 6. Subcommittees
+
+The TSC may form subcommittees for:
+
+- Security  
+- Cryptography  
+- Mobile & Wallet  
+- Fabric & Institutional Integrations  
+- USSD & Offline Access  
+- Cross‑Chain Interoperability  
+
+Each subcommittee reports back to the TSC.
+
+---
+
+## 7. Related Documents
+
+- `/governance/GOVERNANCE.md`  
+- `/governance/RELEASE_POLICY.md`  
+- `/governance/SECURITY_DISCLOSURE.md`  
+- `/governance/MAINTAINER_GUIDE.md`  
+
+/governance/MAINTAINER_GUIDE.md
+
+# Maintainer Guide
+
+Maintainers are the technical custodians of the Bituncoin Gold (BTNG) ecosystem.  
+They ensure code quality, security, and long‑term stability across all repositories.
+
+This guide defines the responsibilities, expectations, and standards required of maintainers.
+
+---
+
+## 1. Role of a Maintainer
+
+Maintainers are responsible for:
+
+- Reviewing and approving Pull Requests  
+- Ensuring code quality and architectural consistency  
+- Enforcing contribution and security standards  
+- Managing releases in coordination with the TSC  
+- Supporting contributors and fostering a healthy community  
+- Protecting the integrity of the protocol and ecosystem  
+
+Maintainers act as stewards, not gatekeepers.
+
+---
+
+## 2. Responsibilities
+
+### **A. Code Review**
+- Review PRs promptly  
+- Ensure correctness, clarity, and test coverage  
+- Request changes when needed  
+- Approve only when standards are met  
+
+### **B. Security**
+- Watch for potential vulnerabilities  
+- Escalate issues to the Security Team  
+- Enforce secure coding practices  
+
+### **C. Releases**
+- Prepare release branches  
+- Validate changes before tagging  
+- Coordinate with the Technical Steering Committee (TSC)  
+- Ensure release notes are complete and accurate  
+
+### **D. Documentation**
+- Update docs when features change  
+- Maintain repository‑level READMEs  
+- Ensure onboarding materials remain accurate  
+
+### **E. Community Support**
+- Answer contributor questions  
+- Help new contributors navigate the workflow  
+- Encourage constructive collaboration  
+
+---
+
+## 3. Requirements
+
+### **GPG‑Signed Commits**
+All maintainer commits must be signed with a verified GPG key.
+
+### **Activity**
+Maintainers are expected to remain active.  
+Inactivity for extended periods may result in rotation or reassignment.
+
+### **Professional Conduct**
+Maintainers must follow the Code of Conduct and uphold community standards.
+
+---
+
+## 4. Becoming a Maintainer
+
+Candidates are selected based on:
+
+- Consistent, high‑quality contributions  
+- Demonstrated understanding of the codebase  
+- Constructive participation in reviews  
+- Alignment with BTNG governance principles  
+
+Appointments are approved by the TSC and Ekuye DIGITAL GATEWAY TRUST LTD.
+
+---
+
+## 5. Removing or Rotating Maintainers
+
+A maintainer may be rotated or removed for:
+
+- Extended inactivity  
+- Repeated violations of contribution standards  
+- Security negligence  
+- Conduct violations  
+- Conflicts with fiduciary or governance requirements  
+
+Decisions are made by the TSC with fiduciary oversight.
+
+---
+
+## 6. Related Documents
+
+- `/governance/GOVERNANCE.md`  
+- `/governance/CONTRIBUTING.md`  
+- `/governance/RELEASE_POLICY.md`  
+- `/governance/SECURITY_DISCLOSURE.md`  
+- `/governance/CODE_OF_CONDUCT.md`  
+
+/governance/RELEASE_POLICY.md
+
+# Release Policy
+
+This document defines how software releases are planned, approved, tested, and published across the Bituncoin Gold (BTNG) ecosystem.
+
+The release process ensures security, stability, and compliance across all four governance pillars:
+
+- Ekuye DIGITAL GATEWAY TRUST LTD  
+- INTERNATIONAL EQUITY TRUST CO  
+- Bituncoin Gold BTNG  
+- Ekuye Digital Gateway Trust  
+
+---
+
+## 1. Release Types
+
+### **A. Major Releases**
+Major releases include:
+
+- Protocol upgrades  
+- Consensus changes  
+- Ledger format changes  
+- Cryptographic upgrades  
+- Breaking API changes  
+
+**Approval Required:**  
+- Technical Steering Committee (TSC)  
+- Ekuye DIGITAL GATEWAY TRUST LTD  
+- INTERNATIONAL EQUITY TRUST CO (if cross‑border implications exist)
+
+---
+
+### **B. Minor Releases**
+Minor releases include:
+
+- New features  
+- Performance improvements  
+- Non‑breaking API changes  
+- UX/UI enhancements  
+
+**Approval Required:**  
+- TSC  
+- Maintainers of affected repositories  
+
+---
+
+### **C. Patch Releases**
+Patch releases include:
+
+- Bug fixes  
+- Minor improvements  
+- Non‑functional changes  
+- Documentation updates  
+
+**Approval Required:**  
+- Repository maintainers  
+
+---
+
+### **D. Security Releases**
+Security releases include:
+
+- Vulnerability patches  
+- Emergency fixes  
+- Cryptographic corrections  
+- Ledger integrity fixes  
+
+**Approval Required:**  
+- BTNG Security Team  
+- TSC  
+- Ekuye DIGITAL GATEWAY TRUST LTD (for disclosure coordination)
+
+Security releases follow the Responsible Disclosure Policy.
+
+---
+
+## 2. Release Process
+
+### **Step 1 — Proposal**
+A release begins with a proposal:
+
+- GitHub Issue  
+- Governance proposal  
+- TSC agenda item  
+
+### **Step 2 — Review**
+The proposal is reviewed by:
+
+- Maintainers  
+- TSC  
+- Security Team (if applicable)  
+- International Equity Trust (if cross‑border implications exist)
+
+### **Step 3 — Release Branch**
+A release branch is created:
+
+
+### **Step 4 — Testing**
+Testing includes:
+
+- Unit tests  
+- Integration tests  
+- Security review  
+- Ledger compatibility tests  
+- Mobile and SDK compatibility tests  
+
+### **Step 5 — Approval**
+Approvals required:
+
+- Maintainers (patch/minor)  
+- TSC (minor/major)  
+- Ekuye DIGITAL GATEWAY TRUST LTD (major/security)  
+
+### **Step 6 — Tagging**
+Releases are tagged using semantic versioning:
+
+
+### **Step 7 — Publication**
+Artifacts are published to:
+
+- GitHub Releases  
+- Package registries (if applicable)  
+- Documentation updates  
+
+### **Step 8 — Announcement**
+Announcements are made via:
+
+- Release notes  
+- Governance channels  
+- Developer portal  
+
+---
+
+## 3. Versioning Standard
+
+BTNG uses **Semantic Versioning (SemVer)**:
+
+
+- **MAJOR** — breaking changes  
+- **MINOR** — new features  
+- **PATCH** — fixes  
+
+---
+
+## 4. Emergency Releases
+
+Emergency releases may be triggered by:
+
+- Security vulnerabilities  
+- Ledger inconsistencies  
+- Consensus failures  
+- Critical bugs affecting funds or nodes  
+
+Emergency releases bypass normal timelines but **not** security review.
+
+---
+
+## 5. Deprecation Policy
+
+When features or APIs are deprecated:
+
+- They must be documented  
+- A migration path must be provided  
+- Deprecation warnings must be added  
+- Removal must occur in a future major release  
+
+---
+
+## 6. Related Documents
+
+- `/governance/GOVERNANCE.md`  
+- `/governance/SECURITY_DISCLOSURE.md`  
+- `/governance/STEERING_COMMITTEE.md`  
+- `/governance/MAINTAINER_GUIDE.md`  
+
+/governance/SECURITY_DISCLOSURE.md
+
+# Security Disclosure Policy
+
+The Bituncoin Gold (BTNG) ecosystem takes security extremely seriously.  
+This policy outlines how to report vulnerabilities, how disclosures are handled, and how coordinated responses are executed across the four governance pillars.
+
+---
+
+## 1. Reporting a Vulnerability
+
+If you discover a security vulnerability, **do not open a public issue**.
+
+Instead, report it privately to:
+
+**security@bituncoin.com**
+
+Please include:
+
+- A detailed description of the vulnerability  
+- Steps to reproduce  
+- Potential impact  
+- Any suggested remediation  
+- Your contact information for follow‑up  
+
+We appreciate responsible disclosure and will acknowledge receipt promptly.
+
+---
+
+## 2. What to Expect After Reporting
+
+### **A. Acknowledgment**
+You will receive confirmation that your report has been received.
+
+### **B. Investigation**
+The BTNG Security Team will:
+
+- Reproduce the issue  
+- Assess severity  
+- Determine affected components  
+- Begin patch development  
+
+### **C. Coordinated Response**
+Depending on severity, the following groups may be involved:
+
+- **BTNG Security Team** — technical investigation and patching  
+- **Technical Steering Committee (TSC)** — oversight and approval  
+- **Ekuye DIGITAL GATEWAY TRUST LTD** — legal and fiduciary coordination  
+- **INTERNATIONAL EQUITY TRUST CO** — cross‑border compliance review  
+
+### **D. Patch Development**
+Security patches are developed privately until ready for release.
+
+### **E. Responsible Disclosure**
+Once a fix is available:
+
+- A security advisory will be published  
+- A patched release will be issued  
+- Acknowledgment will be given to the reporter (unless anonymity requested)  
+
+---
+
+## 3. Severity Levels
+
+### **Critical**
+- Ledger integrity failures  
+- Consensus vulnerabilities  
+- Private key compromise  
+- Remote code execution  
+- Fund‑draining exploits  
+
+### **High**
+- Authentication bypass  
+- Significant denial‑of‑service vectors  
+- Cross‑chain bridge vulnerabilities  
+
+### **Medium**
+- Data leakage  
+- Permission issues  
+- Non‑critical DoS  
+
+### **Low**
+- Minor bugs with limited impact  
+- UI/UX security inconsistencies  
+
+---
+
+## 4. Emergency Security Releases
+
+Emergency releases may be triggered by:
+
+- Active exploitation  
+- High‑severity vulnerabilities  
+- Ledger or consensus instability  
+
+Emergency releases follow the process defined in:
+
+
+---
+
+## 5. Non‑Qualifying Reports
+
+The following are generally **not** considered vulnerabilities:
+
+- Missing rate limits  
+- Outdated dependencies without exploitability  
+- UI bugs  
+- Best‑practice suggestions  
+- Social engineering scenarios  
+
+These may still be submitted as issues or improvements.
+
+---
+
+## 6. Safe Harbor
+
+We support good‑faith security research.
+
+Researchers who follow this policy:
+
+- Will not be penalized  
+- Will not have legal action taken against them  
+- Will be acknowledged (unless anonymity requested)  
+
+---
+
+## 7. Related Documents
+
+- `/governance/GOVERNANCE.md`  
+- `/governance/RELEASE_POLICY.md`  
+- `/governance/STEERING_COMMITTEE.md`  
+- `/governance/CODE_OF_CONDUCT.md`  
+
+/governance/CODE_OF_CONDUCT.md
+
+# Code of Conduct
+
+The Bituncoin Gold (BTNG) ecosystem is built on trust, collaboration, and shared responsibility.  
+All contributors, maintainers, community members, and organizational participants are expected to uphold the highest standards of professionalism and respect.
+
+This Code of Conduct applies across all repositories, discussions, governance processes, and community spaces.
+
+---
+
+## 1. Our Standards
+
+### **We expect all participants to:**
+- Be respectful and constructive  
+- Communicate clearly and professionally  
+- Welcome diverse perspectives  
+- Collaborate in good faith  
+- Follow governance and contribution guidelines  
+- Prioritize security, accuracy, and integrity  
+- Support a safe and inclusive environment  
+
+### **Unacceptable behavior includes:**
+- Harassment, discrimination, or personal attacks  
+- Threats or intimidation  
+- Disruptive or hostile behavior  
+- Sharing private or sensitive information  
+- Knowingly spreading misinformation  
+- Attempting to bypass governance or security processes  
+- Any action that undermines the fiduciary or sovereign integrity of the ecosystem  
+
+---
+
+## 2. Responsibilities of Maintainers and Leaders
+
+Maintainers, TSC members, and governance leaders must:
+
+- Model exemplary behavior  
+- Enforce this Code consistently and fairly  
+- Address violations promptly  
+- Protect contributors from retaliation  
+- Escalate serious issues to the appropriate governance body  
+
+---
+
+## 3. Reporting Violations
+
+If you witness or experience a violation, report it privately to:
+
+**conduct@bituncoin.com**
+
+Reports will be handled confidentially and professionally.
+
+For security‑related issues, use:
+
+**security@bituncoin.com**
+
+---
+
+## 4. Enforcement
+
+Violations may result in:
+
+- Warning  
+- Temporary or permanent removal from the project  
+- Revocation of maintainer or contributor privileges  
+- Escalation to fiduciary governance (Ekuye DIGITAL GATEWAY TRUST LTD)  
+- Legal action in severe cases  
+
+Enforcement decisions are made by the appropriate governance body:
+
+- Maintainers (minor issues)  
+- TSC (technical or repeated issues)  
+- Ekuye DIGITAL GATEWAY TRUST LTD (fiduciary, legal, or severe issues)  
+
+---
+
+## 5. Appeals
+
+Participants may request a review of enforcement decisions by submitting an appeal to:
+
+**governance@project.org**
+
+Appeals are reviewed by the TSC and fiduciary governance.
+
+---
+
+## 6. Related Documents
+
+- `/governance/GOVERNANCE.md`  
+- `/governance/CONTRIBUTING.md`  
+- `/governance/STEERING_COMMITTEE.md`  
+- `/governance/SECURITY_DISCLOSURE.md`  
+- `/governance/CROSS_ORG_CHARTER.md`  
+
+/governance/CROSS_ORG_CHARTER.md
+
+# Cross‑Organization Governance Charter
+
+This charter defines how the four organizations within the Bituncoin Gold (BTNG) ecosystem coordinate governance, decision‑making, security, and long‑term stewardship.  
+It ensures clarity, accountability, and sovereignty across all operational, technical, fiduciary, and community layers.
+
+---
+
+# 1. Organizational Structure
+
+The BTNG ecosystem is governed by four distinct but interconnected organizations:
+
+### **A. Ekuye DIGITAL GATEWAY TRUST LTD**  
+**Role:** Legal & Fiduciary Root  
+- Owns trademarks and intellectual property  
+- Ensures regulatory and fiduciary compliance  
+- Approves major protocol changes  
+- Provides long‑term stewardship and continuity  
+
+### **B. INTERNATIONAL EQUITY TRUST CO**  
+**Role:** International & Institutional Governance  
+- Manages cross‑border compliance  
+- Oversees institutional onboarding  
+- Maintains international agreements  
+- Ensures multi‑jurisdictional alignment  
+
+### **C. Bituncoin Gold BTNG**  
+**Role:** Technical & Protocol Governance  
+- Maintains the core ledger and protocol  
+- Oversees cryptography, consensus, and security  
+- Manages releases and technical standards  
+- Houses the Technical Steering Committee (TSC)  
+
+### **D. Ekuye Digital Gateway Trust**  
+**Role:** Community & Documentation Governance  
+- Manages contributor onboarding  
+- Maintains documentation and tutorials  
+- Oversees community proposals and discussions  
+- Ensures transparency and accessibility  
+
+---
+
+# 2. Decision‑Making Framework
+
+All decisions flow through a structured, multi‑layered process to ensure technical rigor, community participation, and fiduciary oversight.
+
+### **Step 1 — Technical Proposal**
+Originates in **Bituncoin Gold BTNG**  
+- Protocol changes  
+- Ledger updates  
+- Cryptographic upgrades  
+- SDK/CLI/API changes  
+
+### **Step 2 — Community Review**
+Handled by **Ekuye Digital Gateway Trust**  
+- Public discussion  
+- Documentation impact  
+- Contributor feedback  
+
+### **Step 3 — International Review**
+Handled by **INTERNATIONAL EQUITY TRUST CO**  
+- Cross‑border implications  
+- Institutional compliance  
+- Regulatory considerations  
+
+### **Step 4 — Fiduciary Approval**
+Final approval by **Ekuye DIGITAL GATEWAY TRUST LTD**  
+- Legal compliance  
+- Long‑term stewardship  
+- Sovereign alignment  
+
+No major protocol change is valid without fiduciary approval.
+
+---
+
+# 3. Security Governance
+
+Security is coordinated across all four organizations.
+
+### **A. BTNG Security Team**
+- Investigates vulnerabilities  
+- Develops patches  
+- Coordinates emergency releases  
+
+### **B. Technical Steering Committee (TSC)**
+- Approves security‑related protocol changes  
+- Oversees cryptographic standards  
+
+### **C. Ekuye DIGITAL GATEWAY TRUST LTD**
+- Manages legal disclosure  
+- Oversees fiduciary risk  
+
+### **D. INTERNATIONAL EQUITY TRUST CO**
+- Ensures cross‑border compliance for security fixes  
+
+---
+
+# 4. Release Governance
+
+Release authority is distributed as follows:
+
+### **Patch Releases**
+- Maintainers  
+- BTNG engineering  
+
+### **Minor Releases**
+- TSC approval  
+- Maintainer coordination  
+
+### **Major Releases**
+- TSC approval  
+- Fiduciary approval (Ekuye DIGITAL GATEWAY TRUST LTD)  
+- International review (if applicable)  
+
+### **Security Releases**
+- BTNG Security Team  
+- TSC  
+- Fiduciary governance  
+
+Full details: `/governance/RELEASE_POLICY.md`
+
+---
+
+# 5. Governance Principles
+
+All organizations operate under shared principles:
+
+- **Transparency** — Open processes and public documentation  
+- **Security** — Protection of users, nodes, and assets  
+- **Accountability** — Clear roles and responsibilities  
+- **Sovereignty** — African‑rooted, globally compliant  
+- **Inclusiveness** — Community participation and accessibility  
+- **Stability** — Long‑term stewardship and continuity  
+
+---
+
+# 6. Amendments
+
+This charter may be amended only through:
+
+1. Proposal by the TSC or fiduciary governance  
+2. Community review  
+3. International compliance review  
+4. Final approval by Ekuye DIGITAL GATEWAY TRUST LTD  
+
+---
+
+# 7. Related Documents
+
+- `/governance/GOVERNANCE.md`  
+- `/governance/CONTRIBUTING.md`  
+- `/governance/STEERING_COMMITTEE.md`  
+- `/governance/RELEASE_POLICY.md`  
+- `/governance/SECURITY_DISCLOSURE.md`  
+- `/governance/CODE_OF_CONDUCT.md`  
+
+Ekuye Digital Gateway Trust / governance
+
+Ekuye Digital Gateway Trust / docs
+
+Ekuye Digital Gateway Trust / lore
+
+Ekuye Digital Gateway Trust / org-landing-pages
+
+/governance
+/docs
+/lore
+/org-landing-pages
+
+
 Security & Release Policies
 
 Full governance suite:
